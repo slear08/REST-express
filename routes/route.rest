@@ -1,0 +1,30 @@
+GET http://localhost:8000/books
+###
+POST http://localhost:8000/books
+Content-Type: application/json
+
+{
+    "name": "Hello World",
+    "author": "Slear Mendoza"
+}
+
+###
+GET http://localhost:8000/books/64831f80e27a54195780c1fb
+
+###
+DELETE http://localhost:8000/books/648307420084211143b98538
+
+
+###
+PATCH http://localhost:8000/books/64831f80e27a54195780c1fb
+Content-Type: application/json
+
+{
+    "name": "Hello Programmer",
+    "author": "Slear "
+}
+
+
+
+
+
